@@ -1,0 +1,51 @@
+h1 {
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #11245a;
+}
+
+section {
+	padding: 125px;
+}
+
+.contact-form{
+	max-width: 900px;
+	margin: 100px auto;
+	
+}
+.contact-form .image{
+	float:left;
+	background: url("bg-form.jpg") no-repeat;
+	height: 500px;
+	width: 50%;
+	background-size: cover;
+	background-position: 55%;
+	margin: 0;
+	padding:0;
+}
+
+.contact-form .frm{
+	float:right;
+	height: 500px;
+    width: 50%;
+    min-width: 250px;
+    padding: 0 35px;
+    background-size: 100% 100%;
+    background-color: white;
+	border: #757575 solid .5px;
+}
+
+
+.contact-form .form-control{
+	width: 90%;
+	padding: 12px 20px;
+	height: auto;
+}
+.form-group .btn {
+	width: 120px;
+    margin: 50px;
+	font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
